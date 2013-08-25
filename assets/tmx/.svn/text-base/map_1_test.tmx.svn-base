@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="70" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="island" tilewidth="32" tileheight="32">
+  <image source="island.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="Dirt Block" tilewidth="32" tileheight="32">
+  <image source="Dirt Block.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="272" name="background_underground" tilewidth="32" tileheight="32">
+  <image source="background_underground.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DoQ0AAAgDsPEA/5+LQOMRbdIEuHSp+jEAAABrAM3Wpf7gFQAA
+  </data>
+ </layer>
+ <objectgroup name="wall" width="20" height="70">
+  <object x="1" y="867" width="635" height="27"/>
+  <object x="-10" y="281" width="662" height="27"/>
+  <object x="3" y="352" width="33" height="513"/>
+  <object x="604" y="352" width="33" height="513"/>
+ </objectgroup>
+ <objectgroup name="enemies" width="20" height="70" visible="0"/>
+ <layer name="Tile Layer 2" width="20" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DsQ0AAAgDoDr3/399wdEBEjpJ1XMAAAAA+GIBe2hH+eAVAAA=
+  </data>
+ </layer>
+</map>

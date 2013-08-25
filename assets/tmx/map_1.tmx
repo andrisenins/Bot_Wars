@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Dirt Block" tilewidth="32" tileheight="32">
+  <image source="Dirt Block.png" width="101" height="171"/>
+ </tileset>
+ <tileset firstgid="16" name="background_underground" tilewidth="32" tileheight="32">
+  <image source="background_underground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="272" name="rock" tilewidth="32" tileheight="32">
+  <image source="tmx/rock.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="273" name="grass" tilewidth="32" tileheight="32">
+  <image source="tmx/grass.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC71TWw4AIAiqG9j9L9u/A8RWfbia+QC0mGPEB1uFdeJULjvdWtkfoIdbpxuXeaCeyF/hZfcOPpdjxqjmgbipfXB53DKEn+nC+FbzYTxPsCpd1f9QuW7fDg+mh/Om9H7Fw9Fc7S2LeW0bpRc8RdwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="wall" width="25" height="15">
+  <object x="26" y="1" width="3" height="477"/>
+  <object x="7" y="1" width="789" height="29"/>
+  <object x="771" y="34" width="23" height="413"/>
+  <object x="2" y="451" width="794" height="28"/>
+  <object x="64" y="66" width="28" height="25"/>
+  <object x="129" y="68" width="28" height="25"/>
+  <object x="259" y="262" width="25" height="22"/>
+  <object x="451" y="259" width="28" height="25"/>
+  <object x="640" y="356" width="28" height="25"/>
+  <object x="544" y="356" width="28" height="25"/>
+  <object x="483" y="356" width="28" height="25"/>
+  <object x="417" y="355" width="28" height="25"/>
+  <object x="65" y="323" width="28" height="25"/>
+  <object x="65" y="259" width="28" height="25"/>
+  <object x="706" y="68" width="28" height="25"/>
+  <object x="195" y="324" width="57" height="26"/>
+  <object x="195" y="386" width="57" height="26"/>
+  <object x="483" y="419" width="57" height="26"/>
+  <object x="708" y="258" width="57" height="26"/>
+  <object x="675" y="131" width="57" height="26"/>
+  <object x="678" y="194" width="57" height="26"/>
+  <object x="580" y="130" width="57" height="26"/>
+  <object x="516" y="194" width="57" height="26"/>
+  <object x="35" y="193" width="57" height="26"/>
+  <object x="611" y="34" width="25" height="58"/>
+  <object x="516" y="97" width="25" height="58"/>
+  <object x="548" y="259" width="25" height="58"/>
+  <object x="643" y="260" width="25" height="58"/>
+  <object x="196" y="164" width="25" height="58"/>
+  <object x="194" y="68" width="25" height="58"/>
+  <object x="417" y="68" width="28" height="25"/>
+  <object x="259" y="132" width="89" height="25"/>
+  <object x="67" y="131" width="89" height="25"/>
+  <object x="324" y="259" width="89" height="25"/>
+  <object x="417" y="131" width="28" height="89"/>
+  <object x="703" y="325" width="28" height="89"/>
+  <object x="130" y="292" width="28" height="89"/>
+  <object x="292" y="35" width="57" height="26"/>
+  <object x="68" y="386" width="90" height="26"/>
+  <object x="322" y="324" width="27" height="123"/>
+  <object x="132" y="195" width="25" height="22"/>
+  <object x="292" y="198" width="25" height="22"/>
+ </objectgroup>
+ <objectgroup name="enemies" width="128" height="70">
+  <object x="242" y="200"/>
+ </objectgroup>
+</map>
